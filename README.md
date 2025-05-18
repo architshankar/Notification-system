@@ -26,22 +26,22 @@ A notification system that sends email, SMS, and in-app notifications to users.
 ### Installation Steps
 
 1. Clone the repository:
-git clone https://github.com/yourusername/notification-system.git
+git clone https://github.com/architshankar/Notification-system
 cd notification-system
 
 
 2. Create a `.env` file in the root directory with the following variables:
 
 
-PORT=3000
-MONGO_URI=mongodb://mongo:27017/notification-system
+-PORT=3000
+-MONGO_URI=mongodb://mongo:27017/notification-system
 
-KAFKA_BROKERS=kafka:9092
+-KAFKA_BROKERS=kafka:9092
 
 
-EMAIL_SERVICE=gmail
-EMAIL_USER=
-EMAIL_PASS=
+-EMAIL_SERVICE=gmail
+-EMAIL_USER=
+-EMAIL_PASS=
 
 <!-- nodemailer has been used to send emails sms were not configured in the projects -->
 
