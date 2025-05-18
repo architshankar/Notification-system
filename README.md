@@ -33,19 +33,19 @@ cd notification-system
 2. Create a `.env` file in the root directory with the following variables:
 
 
--PORT=3000
--MONGO_URI=mongodb://mongo:27017/notification-system
+- PORT=3000
+- MONGO_URI=mongodb://mongo:27017/notification-system
 
--KAFKA_BROKERS=kafka:9092
+- KAFKA_BROKERS=kafka:9092
 
 
--EMAIL_SERVICE=gmail
--EMAIL_USER=
--EMAIL_PASS=
+- EMAIL_SERVICE=gmail
+- EMAIL_USER=
+- EMAIL_PASS=
 
 <!-- nodemailer has been used to send emails sms were not configured in the projects -->
 
-SMS_API_KEY=
+- SMS_API_KEY=
 
 
 3. Build and run the application using Docker Compose:
